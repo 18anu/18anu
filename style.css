@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+#fgh{
+    font-size: larger;
+    font-weight: 900;
+    color: brown;
+    margin: 50%;
+    border: solid red 5px;
+    border-radius: 30px;
+    width: 200px;
+}
