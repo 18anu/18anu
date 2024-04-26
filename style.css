@@ -1,12 +1,39 @@
-body {
+body{
     background-color: black;
+    color: wheat;
 }
-#fgh{
-    font-size: larger;
-    font-weight: 900;
-    color: brown;
-    margin: 50%;
-    border: solid red 5px;
-    border-radius: 30px;
-    width: 200px;
+#img {
+    float: left;
+    top: -1198px;
+    position: relative;
+    left: -3px;}
+.btn{
+    float: right;
+    position: relative;
+    top: -903px;
+
+}
+#btn1{
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    left: -31px;
+    position: relative;
+    width: 314px;
+    height: 75px;
+}
+#btn2{
+    font-size: 45px;
+    background-color: red;
+    color: white;
+    border: solid red 1px;
+    border-radius: 8px;
+    width: 196px;
+    height: 66px;
+}
+#smimg{
+    height: 38px;
+}
+#bg{
+    opacity: 0.5;
 }
