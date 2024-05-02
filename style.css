@@ -1,161 +1,305 @@
 body{
     background-color: black;
-    color: wheat;
 }
-#img {
-        float: left;
-        top: -1175px;
-        position: relative;
-        left: 60px;
-        font-size: 42px;
-        height: 170px;
-        width: 300px;
-        font-weight: 400;
-
-
+#bgimg{
+    opacity: 0.4;
+    height: 34em;
+    width: 79em;
 }
-    
-.btn{
-    float: right;
+.nb{
+    display: flex;
+    flex-direction: row;
     position: relative;
-    top: -1280px;
-    right: 70px;
+    top: -37em;
+    
+}
+#logo{
+    height: 10em;
 
 }
-#btn1{
-    font-size: 15px;
+.cars{
     background-color: black;
     color: white;
-    float: right;
-    right: 200px;
     position: relative;
-    width: 130px;
-    height: 40px;
-    border: solid,black ,1px;
-    border-radius: 5px;
-
-    
-
+    left: 50em;
+    top: 5em;
 }
-#btn2{
-    font-size: 14px;
+#btn{
     background-color: red;
     color: white;
-    border: solid red 1px;
-    border-radius: 5px;
-    width: 70px;
-    height: 35px;
     position: relative;
-    float: right;
-    right: -60px;
-    font-weight: 600;
-
+    border: solid red 0.1;
+    border-radius: 0.6em;
+    position: relative;
+    top: 5em;
+    left: 55em;
+    height: 2em;
+    width: 5.5em;
 }
-#smimg{
-    height: 25px;
-    width: 25px;
+.ctn{
+    display: flex;
+    flex-direction: column;
     position: relative;
     float: left;
-    bottom: -4px;
+    justify-content: center;
+    left: 15em;
+    color: white;
+    top: -30em;
+    text-align: center;
+
+
 }
-#bg{
-    opacity: 0.4;
+#ct1{
+    font-size: 3em;
+    font-weight: 1000;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    
 }
-#onepar{
-   color: white;
-   font-size: 45px; 
-   font-weight: 1000;
-   position: relative;
-   float: right;
-   top: 240px;
-   right: -160px;
-   font-family: Arial, Helvetica, sans-serif;
-   
+#ct2{
+    font-size: 2em;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ct3{position: relative;
+    font-size: medium;
+    font-weight: 200;
+    top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ct4{position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 3em;
+    left: 5em;
+}
+#btn2{
+    background-color: red;
+    color: white;
+    border: solid red 0.1;
+    border-radius: 1em;
+
+}
+#hr{
+    position: relative;
+    top: -20em;
+    float: left;
+    width: 100%;
+    height: 0.3em;
+    background-color: grey;
+}
+.cti1{
+    color: white;
+    position: relative;
+    float: right;
+    right: 400px;
+    top: -70px;
+    
+    
+    
+
+}
+#par{
+    position: relative;
+    top: -100px;
+    float: left;
+    right: -95px;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    width: -50px;
+    
+    
 }
 #par1{
-    color: white;
-    font-size: 25px;
-    float: right;
     position: relative;
-    top: 210px;
-    right: 360px;
+    top: -40px;
+    float: left;
+    right: 300px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.4;
     font-weight: 400;
-    line-height: 5;
-    font-family: helvetica,sans-serif;
     
 }
-#par2{
+
+.secimg{
+    position: relative;
+    top: -300px;
+    float:right;
+    right: -140px;
+    height: 0.1em;
+    width: 0.2em;
+}
+#video{
+        position: relative;
+        top:-386px;
+        float:right;
+        right: -555px;
+        
+}
+#hr1{
+    position: relative;
+    top:2.6em;
+    float: left;
+    width: 100%;
+    height: 0.3em;
+    background-color: grey;
+
+}
+.cti2{
     color: white;
-    font-size: 22px;
-    float: right;
-    position: relative;
-    top: 325px;
-    right: -295px;
-    font-weight: 100;
-    font-family: Helvetica, sans-serif;
-    line-height:0.01;
-    text-size-adjust: 10%;
-
-}
-
-#ab{
     position: relative;
     float: right;
-    top:230px;
-    opacity: 09;
-    border: solid,black,1px;
-    border-radius: 5px;
-    height: 60px;
-	width: 100vw;
-	padding: 0 5px;
-    right: -469px;
-
-}
-
-#myemail{
-    height: 50px;
-	width: 30vw;
-	padding-top: 0.5px;
-    border: solid white,1px;
-    border-radius: 3px;
-    background-color: black;
-    font-size: 17px;
-    padding-left: 2px;
-    padding-right: 2px;
-    justify-content: center;
-    border-color:white;
-   /* border-bottom: 0.4px;*/
-    /*border-right: 0.2px;*/
-    border-width: 0.01px;
-    border-bottom-width: 0.01px;
+    right: 200px;
+    top: 300px;
+    
     
 
+}
+.secimg1{
+    position: relative;
+    top: 100px;
+    float:left;
+    left: -40px;
+    height: 0.1em;
+    width: 1em;
+}
+#par3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    position: relative;
+    float:right;
+    right:20px;
+    top: -169px;
+    font-weight: 900;
+    line-height: 0.3;
+}
+#par4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    float: right;
+    right: -460px;
+    top: 50px;
+    line-height: 0.3;
 
 }
-#bt{
-    height: 56px;
-	width: 15vw;
-    font-size: 20px;
+#hr2{
+    position: relative;
+    top:380px;
+    float: left;
+    width: 110%;
+    height: 0.4em;
+    background-color: grey;
+
+}
+.cti3{
+    color: white;
+    position: relative;
+    float:left;
+    left:145px ;
+    top: 400px;
+}
+#par5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    position: relative;
+    float: left;
+    top: 120px;
+    font-weight: 800;
+}
+#par6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    position: relative;
+    float: left;
+    top:189px ;
+    right: 490px;
+    line-height: 0.3;
+    
+    
+
+}
+.secimg2{
+    position:relative;
+    float: right;
+    top: 400px;
+    right: -60px;
+    height: min-content;
+    width: min-content;
+}
+#video2{
+    position: relative;
+    float: right;
+    top: -550px;
+    right: 120px;
+    z-index: -2;
+    height: 29em;
+    width: 25em;
+}
+#hr3{
+    position: relative;
+    top:-80px;
+    float: left;
+    width: 110%;
+    height: 0.3em;
+    background-color: grey;
+
+
+}
+.cti4{
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+#par7{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+    position: relative;
+    float: left;
+    top: 1100px;
+    font-weight: 800;
+    right: -665px;
+    line-height: 0.3;
+}
+#par8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    float: left;
+    top:1090px ;
+    right: -665px;
+    line-height: 0.3;
+
+}
+.secimg3{
+    position: relative;
+    float: left;
+    top: 100px;
+    height: 0.01em;
+    width: 0.01em;
+
+}
+#hr4{
+    position: relative;
+    top:565px;
+    float: left;
+    width: 110%;
+    height: 0.3em;
+    background-color: grey;
+
+}
+.cti5{
+    color: white;
+    position: relative;
+    float: left;
+    top: 580px;
+    right: -300px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    background-color:rgb(193, 17, 25);
-    color: white;
-    border: solid,red,1px;
 
-    border-radius: 6px;
-    border-color: rgb(193,17,25);
-    position: relative;
-    float: right;
-    right:690px;
-}
-#Option{
-    font-size: 15px;
-    background-color: black;
-    color:white
-}
-#ef{
-
-}
-#cd{
-    font-size: 15px;
-    
 }
